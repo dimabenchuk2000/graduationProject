@@ -1,6 +1,7 @@
 import modal from "./modules/modal";
 import smoothScrolling from "./modules/smoothScrolling";
 import slider from "./modules/slider";
+import sliderSwiper from "./modules/sliderSwiper";
 
 modal();
 smoothScrolling();
@@ -15,3 +16,4 @@ slider({
   buttonRight: "none",
   buttonLeft: "none",
 });
+sliderSwiper();
