@@ -3,6 +3,7 @@ import { animate } from "./helpers";
 const modal = () => {
   const callbackBtn = document.querySelector(".header .callback-btn");
   const closeModalBtn = document.querySelector(".modal-close");
+  const fancyboxModalButtons = document.querySelectorAll(".fancyboxModal");
   const buttonServices = document.querySelector(".button-services");
   const modalOverlay = document.querySelector(".modal-overlay");
   const modalCallback = document.querySelector(".modal-callback");
@@ -31,6 +32,10 @@ const modal = () => {
   callbackBtn.addEventListener("click", openModal);
   modalOverlay.addEventListener("click", closeModal);
   closeModalBtn.addEventListener("click", closeModal);
+
+  fancyboxModalButtons.forEach((btn) => {
+    btn.addEventListener("click", openModal);
+  });
 };
 
 export default modal;
