@@ -2,6 +2,7 @@ import modal from "./modules/modal";
 import smoothScrolling from "./modules/smoothScrolling";
 import slider from "./modules/slider";
 import sliderSwiper from "./modules/sliderSwiper";
+import accordion from "./modules/accordion";
 
 modal();
 smoothScrolling();
@@ -17,3 +18,4 @@ slider({
   buttonLeft: "none",
 });
 sliderSwiper();
+accordion();
