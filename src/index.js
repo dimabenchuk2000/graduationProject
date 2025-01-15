@@ -3,6 +3,7 @@ import smoothScrolling from "./modules/smoothScrolling";
 import slider from "./modules/slider";
 import sliderSwiper from "./modules/sliderSwiper";
 import accordion from "./modules/accordion";
+import btnToTop from "./modules/btnToTop";
 
 modal();
 smoothScrolling();
@@ -19,3 +20,4 @@ slider({
 });
 sliderSwiper();
 accordion();
+btnToTop();
